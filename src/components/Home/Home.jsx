@@ -1,5 +1,7 @@
 import React from 'react'
 import { Contact, Courses, Footer, Goals, Grand, Header, Navbar, Questions, Results } from '../'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 const resultCards = [
   {
@@ -45,6 +47,8 @@ const Home = () => {
       <Questions />
       <Contact />
       <Footer />
+
+      <ToastContainer />
     </div>
   )
 }

@@ -61,7 +61,7 @@ const Goals = () => {
     return (
         <div className="w-[95%] sm:w-[90%] xl:w-[1400px] mx-auto flex flex-col justify-center " >
             <h1 className="text-2xl ss:text-4xl py-16 text-center ">TOPIK academy aniq siz uchun agar siz:</h1>
-            <div className="grid grid-cols-2 gap-2 ss:grid-cols-2 ss:gap-4 md:grid-cols-3 md:gap-8">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 sm:gap-4 md:grid-cols-3 md:gap-8">
 
                 {cards.map((item, index) => (
                     <GoalsCard {...item} key={index} />

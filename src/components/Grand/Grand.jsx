@@ -39,7 +39,7 @@ const Grand = ({ cards }) => {
                 <div className="">
                     <h1 className='text-2xl font-light leading-10 sm:max-w-max '><span className='text-primary'>TOPIK academy consulting</span> jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi</h1>
                     <p className='pt-20 mb-10 font-medium'>Ko’proq ma’lumot olish uchun <br /> bepul konsultatsiyaga yoziling!</p>
-                    <a href="#" className=' uppercase inline-block text-base ss:text-xl bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-4 px-12 w-80 ss:w-auto font-bold text-white ' >Ariza Qoldirish</a>
+                    <a href="#" className=' uppercase inline-block text-base ss:text-xl bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-4 px-12 max-w-[90%] w-80 ss:max-w-max ss:w-auto font-bold text-white ' >Ariza Qoldirish</a>
                 </div>
 
                 <div className="relative sm:flex overflow-hidden hidden ">
