@@ -31,8 +31,7 @@ const Questions = () => {
             <div className="">
 
                 {items.map((item, index) => (
-                    <QuestionsCard item={item} index={index + 1} setActive={setActive} active={active} />
-
+                    <QuestionsCard item={item} index={index + 1} setActive={setActive} active={active} key={item.id} />
                 ))}
             </div>
         </div>

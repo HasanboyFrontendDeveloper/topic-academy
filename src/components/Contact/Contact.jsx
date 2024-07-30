@@ -38,7 +38,7 @@ const Contact = () => {
         .then(() => {
             setValue({
                 name: '',
-                phone: ''
+                phone: '+998'
             })
             toast.success('Send Successfully', {
                 theme: 'light',
