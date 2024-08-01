@@ -14,7 +14,7 @@ const CourseCard = ({ img, title, price, desc }) => {
                 <p className='py-5 sm:text-lg ' >{desc.first} <span>{desc.highlight}</span> {desc.third} </p>
             </div>
             <div className=" px-5 pb-5  flex justify-between items-center ">
-                <a href="#" className=' uppercase inline-block sm:text-sm text-[10px] bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-2 px-4 font-bold text-white ' >Ro'yxatdan O'tish</a>
+                <a href="#contacts" className=' uppercase inline-block sm:text-sm text-[10px] bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-2 px-4 font-bold text-white ' >Ro'yxatdan O'tish</a>
                 <span className='text-primary sm:text-xl text-sm font-semibold '>{price} so’m /oy</span>
             </div>
         </div>

@@ -25,7 +25,7 @@ const Header = () => {
                     <img src={mainimg} alt="main img" className='w-[1200px] ml-[30px] sm:ml-[100px] ss:absolute ss:right-[-300px] ss:bottom-20 md:bottom-[-160px] md:right-[-230px] lg:top-0 lg:right-[-130px] ' />
                 </div>
                 <div className="md:mt-12 md:mb-4 ss:block flex flex-col justify-center items-center  ">
-                    <a href="#" className=' uppercase inline-block text-base ss:text-xl bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-4 ss:py-8 px-12 ss:px-16 w-80 ss:w-auto font-bold text-white ' >bepul darsga yoziling</a>
+                    <a href="#contacts" className=' uppercase inline-block text-base ss:text-xl bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-4 ss:py-8 px-12 ss:px-16 w-80 ss:w-auto font-bold text-white ' >bepul darsga yoziling</a>
                     <h3 className='ss:pl-16 py-3  '>Birinchi darsga bepul yoziling!</h3>
                 </div>
                 

@@ -70,7 +70,7 @@ const Goals = () => {
             </div>
             <div className="mx-auto">
 
-                <a href="#" className='uppercase inline-block text-xl bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-8 px-16 my-5 font-bold text-white ' >ha, bu men</a>
+                <a href="#contacts" className='uppercase inline-block text-xl bg-primary hover:bg-white hover:text-primary border border-primary duration-500 rounded-full py-8 px-16 my-5 font-bold text-white ' >ha, bu men</a>
             </div>
 
         </div>
